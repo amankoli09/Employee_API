@@ -56,3 +56,5 @@ router.post("/",async(request,response)=>{
         response.status(500).json({message:error.message});
     }
 })
+
+module.exports = router;
